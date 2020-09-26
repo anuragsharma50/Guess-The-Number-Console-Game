@@ -1,10 +1,11 @@
-# Generate a Random number
+# Imports
 import random
+import time
+
+# Generate a Random number
 randomNum = random.random()*1000//10
 
-# Initialize count to zero
-count = 0
-
+# Function to check the number
 def check(count):
     count = count + 1
     # User Input 
@@ -21,4 +22,15 @@ def check(count):
             print("Go Down")
             check(count)
 
-check(count)
+check(0)
+
+# Start again
+def restart():
+    re = input("To start again press 1 or type Yes : ")
+    if(re == 1 or re == 'Yes'):
+        check(0)
+    else:
+        print("Byee")
+        time.sleep(1)
+
+restart()
