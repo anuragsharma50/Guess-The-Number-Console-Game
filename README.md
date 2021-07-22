@@ -1,6 +1,6 @@
 # Guess-The-Number-Console-Game
 
-Play a game by guessing the right number between 1-100 in minimum steps. 
+Play a game by guessing the right number between 1 and 100 in minimum steps. 
 
 # Steps
 1) Download num.exe file
